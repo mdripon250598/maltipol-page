@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     background-color: #1a1244;
     padding: 10px 200px;
+    border-bottom: 4px solid #401e63;
 }
 
 nav ul{
@@ -17,7 +18,7 @@ nav ul{
 
 nav ul li{
     list-style-type: none;
-    margin: 10px 5px;
+    margin: 5px 0px;
 }
 
 nav ul li a{
@@ -26,6 +27,7 @@ nav ul li a{
     font-weight: bold;
     font-size: 20px;
     transition: 0.5s;
+    padding: 10px 20px;
 }
 
 nav ul li a:hover{
@@ -37,4 +39,38 @@ nav ul li a:hover{
 nav div{
     color: white;
     font-size: 20px;
+}
+
+/* hero area start */
+
+.header-bg-image{
+    background-image: url(Image/website\ banner.jpg);
+    display: flex;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.searchbox-icon-01 i {
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.searchbox-icon-parent input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
 }
