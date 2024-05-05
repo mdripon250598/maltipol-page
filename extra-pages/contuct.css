@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+ 
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* contact us section start */
+
+
+form{
+    background-color: lightpink;
+    width: 800px;
+    margin: 80px auto;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px black;
+
+}
+
+form h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#name-email-parent input{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+form textarea{
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+
+}
+
+.form-submitbutton{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient( to right, blue, blueviolet, aqua);
+}
