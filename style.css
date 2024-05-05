@@ -80,6 +80,7 @@ nav div{
 main{
     background-color: #2d236a;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 #main-section{
@@ -186,4 +187,69 @@ main{
 
 #previous-next-parent div a:first-child{
     background-color: #04aa6d;
+}
+
+
+/* footer section start */
+
+footer{
+    background-color: #5f2e69;
+    color: #fff;
+}
+
+#footer-container{
+    width: 900px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+
+.footer-firstItem h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.footer-firstItem:first-child p{
+    margin-bottom: 50px;
+}
+
+.footer-secondItem h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.footer-secondItem a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-secondItem p{
+    margin-bottom: 10px;
+}
+
+.footer-thirdItem div{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.footer-thirdItem div a{
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #1a1244;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-thirdItem p{
+    margin-bottom: 10px;
+}
+
+.footer-thirdItem p:nth-child(3){
+    margin-bottom: 70px;
 }
