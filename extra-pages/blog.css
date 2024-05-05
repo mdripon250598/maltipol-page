@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nevber manu  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+ 
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+/* artical area start  */
+
+#article-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.blog-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.single-img-div{
+    height: 400px;
+}
+
+.single-img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.article-titel{
+    color: green;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.article-titel span{
+    color: red;
+}
+
+.single-Blog{
+    box-shadow: 5px 5px 5px black;
+    margin: 30px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.single-text-div{
+    padding: 20px 30px;
+}
+
+.single-text-div span{
+    color: red;
+}
+
+.single-text-div h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.single-text-div a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+}
